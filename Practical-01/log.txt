@@ -1,0 +1,130 @@
+Linux Introduction
+Linux is an open-source, Unix-like operating system kernel that serves as the core component of many operating systems. It was created by Linus Torvalds in 1991, initially as a personal project. Linux is known for its flexibility, stability, and security, making it popular in various environments, from personal computers and servers to mobile devices and embedded systems.
+
+Key Features of Linux:
+* Open Source: Linux is free and open-source, meaning anyone can view, modify, and distribute its source code. This has led to a large, active community of developers and contributors who continuously improve the system.
+
+* Multiuser Capability: Linux supports multiple users simultaneously, ensuring that each user has a secure and isolated environment.
+
+* Multitasking: Linux allows multiple processes to run concurrently without affecting each other's performance.
+
+* Portability: Linux is highly portable and can run on a wide range of hardware, from desktops and laptops to embedded systems and supercomputers.
+
+* Security: Linux has robust security features, including user permissions, firewalls, and SELinux, making it a preferred choice for environments requiring high security.
+
+* Customizability: Users can customize every aspect of Linux, from the kernel to the graphical user interface, to suit their needs.
+
+History of Linux:
+* Creation: Linus Torvalds began developing Linux as a hobby project while studying at the University of Helsinki. The first version, Linux 0.01, was released in 1991.
+
+* Growth: Linux quickly gained popularity due to its open-source nature and the contributions of developers worldwide. The kernel has since evolved through thousands of iterations.
+
+* Linux Foundation: In 2000, the Linux Foundation was established to promote, protect, and standardize Linux. It plays a crucial role in the development and adoption of Linux across industries.
+
+Types of Linux Distributions
+Linux itself is just the kernel, but various distributions (distros) build on it to create complete operating systems with pre-packaged applications, desktop environments, and tools. Each distribution serves different purposes and user needs.
+1. Ubuntu
+Overview: Ubuntu is one of the most popular and user-friendly Linux distributions, based on Debian. It is widely used for desktops, servers, and cloud computing.
+Features:
+Regular Updates: Ubuntu is known for its regular release cycle, with updates every six months.
+User-Friendly: It provides a polished user interface (GNOME by default) and extensive community support, making it ideal for beginners.
+Variants: Ubuntu has several official flavors, including Kubuntu (KDE desktop), Xubuntu (XFCE desktop), and Ubuntu Server.
+2. Fedora
+Overview: Fedora is a cutting-edge distribution sponsored by Red Hat. It is known for incorporating the latest features and technologies in the Linux world.
+Features:
+Bleeding-Edge Software: Fedora often includes the latest versions of software and technologies, making it a favorite among developers and tech enthusiasts.
+Focus on Innovation: It serves as a testing ground for features that may eventually make their way into Red Hat Enterprise Linux (RHEL).
+Security: Fedora emphasizes security, with features like SELinux (Security-Enhanced Linux) enabled by default.
+3. Debian
+Overview: Debian is one of the oldest and most stable Linux distributions. It is known for its reliability and extensive software repository.
+Features:
+Stability: Debian prioritizes stability, making it a popular choice for servers and mission-critical systems.
+Large Software Repository: It offers a vast selection of software packages, ensuring users have access to almost any application they need.
+Community-Driven: Debian is maintained by a large community of developers and volunteers, and it is free from corporate influence.
+4. CentOS / Rocky Linux / AlmaLinux
+Overview: CentOS was a community-driven distribution derived from Red Hat Enterprise Linux (RHEL). After Red Hat shifted its focus, Rocky Linux and AlmaLinux emerged as alternatives.
+Features:
+Enterprise-Grade: These distributions provide the stability and reliability of RHEL without the cost, making them popular in enterprise environments.
+Long-Term Support: They offer long-term support and stability, ideal for servers and production environments.
+Compatibility: CentOS, Rocky Linux, and AlmaLinux maintain binary compatibility with RHEL, ensuring that software designed for RHEL works seamlessly.
+5. Arch Linux
+Overview: Arch Linux is a lightweight and flexible distribution designed for users who prefer to build their system from the ground up.
+Features:
+Rolling Release: Arch uses a rolling release model, meaning users always have access to the latest software versions.
+Minimalism: It installs with only the essential components, allowing users to customize their system according to their needs.
+Advanced User Base: Arch is favored by experienced Linux users who want complete control over their system configuration.
+6. Linux Mint
+Overview: Linux Mint is based on Ubuntu and designed to be user-friendly, especially for users transitioning from Windows.
+Features:
+Cinnamon Desktop: Linux Mint’s flagship edition features the Cinnamon desktop, which offers a traditional desktop experience.
+Ease of Use: It comes with multimedia codecs, pre-installed software, and a user-friendly interface, making it accessible to beginners.
+Stability: Based on Ubuntu LTS (Long-Term Support) versions, Linux Mint emphasizes stability and reliability.
+7. OpenSUSE
+Overview: OpenSUSE is a community-driven distribution sponsored by SUSE, offering two main versions: Leap (stable) and Tumbleweed (rolling release).
+Features:
+YaST: OpenSUSE’s powerful configuration tool, YaST, allows users to manage the system easily.
+Flexibility: Users can choose between the stable Leap version or the cutting-edge Tumbleweed version, depending on their needs.
+Enterprise Connection: OpenSUSE shares a close relationship with SUSE Linux Enterprise, providing enterprise-grade features.
+8. Kali Linux
+Overview: Kali Linux is a specialized distribution designed for cybersecurity professionals and ethical hackers.
+Features:
+Penetration Testing Tools: Kali comes pre-installed with a vast array of security tools for penetration testing, forensics, and reverse engineering.
+Security-Focused: It is designed with security in mind, allowing users to perform various security assessments.
+Customizable: Kali is customizable to meet the specific needs of security professionals.
+
+BASIC COMMANDS
+$ exit 				logout
+$ <ctrl d >	        logout
+$ passwd			create or to change password
+$ date				check current date
+$ cal				display current month’s calendar
+$ cal y				display complete calendar of  year y
+$ clear				clear the screen
+$ who				find users logged in the system
+$ whoami			find who you are
+$ man commandname	display manual pages for a particular command
+$ echo  text		displays the text on standard output
+$ tty				print the filename of the terminal connected to 
+					standard input.
+$ logname			displays the user’s login name
+$ uname			    displays the name of the kernel
+ 	options :   
+    -i			displays the system's hardware platform
+    -m 			displays the name of the hardware that the system is running on
+    -n			displays the machine's hostname
+
+date: This command is used to display the current data and time.
+a = Abbreviated weekday. A = Full weekday. 
+b = Abbreviated month. 
+B = Full month. 
+c = Current day and time. 
+C = Display the century as a decimal number. d = Day of the month. 
+D = Day in „mm/dd/yy‟ format 
+h = Abbrevated month day.
+
+
+Common Options: 
+a = Abbreviated weekday. 
+A = Full weekday. 
+b = Abbreviated month. 
+B = Full month.
+ c = Current day and time. 
+C = Display the century as a decimal number. 
+d = Day of the month. 
+D = Day in „mm/dd/yy‟ format 
+h = Abbrevated month day.
+
+* clear: It is used to clear the screen
+$clear
+
+* man: It help us to know about the particular command and its options & working. It is like„help‟ command in windows
+$man <command name>
+
+* df : is used to see the current amount of free space on your disk drives
+$df
+
+* free: Likewise, to display the amount of free memory, enter the free command
+$free
+
+* exit: We can end a terminal session by either closing the terminal emulator window, or by entering the exit command at the shell prompt.
+$exit
