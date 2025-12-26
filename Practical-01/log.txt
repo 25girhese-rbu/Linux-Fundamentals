@@ -108,7 +108,7 @@ a = Abbreviated weekday.
 A = Full weekday. 
 b = Abbreviated month. 
 B = Full month.
- c = Current day and time. 
+c = Current day and time. 
 C = Display the century as a decimal number. 
 d = Day of the month. 
 D = Day in „mm/dd/yy‟ format 
@@ -196,3 +196,100 @@ soniya@LAPTOP-99V7GI4G:~$ uname -m
 x86_64
 soniya@LAPTOP-99V7GI4G:~$ uname -n
 LAPTOP-99V7GI4G
+PART-2:
+Do as Directed
+1) Display the current date
+soniya@LAPTOP-99V7GI4G:~$ date
+Fri Dec 26 17:46:19 UTC 2025
+
+2) Display the calendar for the current month
+soniya@LAPTOP-99V7GI4G:~$ cal
+   December 2025
+Su Mo Tu We Th Fr Sa
+    1  2  3  4  5  6
+ 7  8  9 10 11 12 13
+14 15 16 17 18 19 20
+21 22 23 24 25 26 27
+28 29 30 31
+
+3) Display the calendar of 2012
+soniya@LAPTOP-99V7GI4G:~$ cal 2012
+                            2012
+      January               February               March
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa
+ 1  2  3  4  5  6  7            1  2  3  4               1  2  3
+ 8  9 10 11 12 13 14   5  6  7  8  9 10 11   4  5  6  7  8  9 10
+15 16 17 18 19 20 21  12 13 14 15 16 17 18  11 12 13 14 15 16 17
+22 23 24 25 26 27 28  19 20 21 22 23 24 25  18 19 20 21 22 23 24
+29 30 31              26 27 28 29           25 26 27 28 29 30 31
+
+
+       April                  May                   June
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa
+ 1  2  3  4  5  6  7         1  2  3  4  5                  1  2
+ 8  9 10 11 12 13 14   6  7  8  9 10 11 12   3  4  5  6  7  8  9
+15 16 17 18 19 20 21  13 14 15 16 17 18 19  10 11 12 13 14 15 16
+22 23 24 25 26 27 28  20 21 22 23 24 25 26  17 18 19 20 21 22 23
+29 30                 27 28 29 30 31        24 25 26 27 28 29 30
+
+
+        July                 August              September
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa
+ 1  2  3  4  5  6  7            1  2  3  4                     1
+ 8  9 10 11 12 13 14   5  6  7  8  9 10 11   2  3  4  5  6  7  8
+15 16 17 18 19 20 21  12 13 14 15 16 17 18   9 10 11 12 13 14 15
+22 23 24 25 26 27 28  19 20 21 22 23 24 25  16 17 18 19 20 21 22
+29 30 31              26 27 28 29 30 31     23 24 25 26 27 28 29
+                                            30
+
+      October               November              December
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa
+    1  2  3  4  5  6               1  2  3                     1
+ 7  8  9 10 11 12 13   4  5  6  7  8  9 10   2  3  4  5  6  7  8
+14 15 16 17 18 19 20  11 12 13 14 15 16 17   9 10 11 12 13 14 15
+21 22 23 24 25 26 27  18 19 20 21 22 23 24  16 17 18 19 20 21 22
+28 29 30 31           25 26 27 28 29 30     23 24 25 26 27 28 29
+                                            30 31
+
+4) Display the calendar of Feb 2015
+soniya@LAPTOP-99V7GI4G:~$ cal Feb 2015
+   February 2015
+Su Mo Tu We Th Fr Sa
+ 1  2  3  4  5  6  7
+ 8  9 10 11 12 13 14
+15 16 17 18 19 20 21
+22 23 24 25 26 27 28
+
+5) Display the amount of free storage on your machine
+soniya@LAPTOP-99V7GI4G:~$ free
+               total        used        free      shared  buff/cache   available
+Mem:         3635428      448652     3096780        3644      180036     3186776
+Swap:        1048576           0     1048576
+
+6) Display the amount of free memory on your machine
+soniya@LAPTOP-99V7GI4G:~$ df
+Filesystem      1K-blocks      Used  Available Use% Mounted on
+none              1817712         0    1817712   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none              1817712         4    1817708   1% /mnt/wsl
+drivers         263063876 119860284  143203592  46% /usr/lib/wsl/drivers
+/dev/sdd       1055762868   2046108 1000013288   1% /
+none              1817712        76    1817636   1% /mnt/wslg
+none              1817712         0    1817712   0% /usr/lib/wsl/lib
+rootfs            1812672      2720    1809952   1% /init
+none              1817712       536    1817176   1% /run
+none              1817712         0    1817712   0% /run/lock
+none              1817712         0    1817712   0% /run/shm
+none              1817712       100    1817612   1% /mnt/wslg/versions.txt
+none              1817712       100    1817612   1% /mnt/wslg/doc
+C:\             263063876 119860284  143203592  46% /mnt/c
+D:\             235518972    507828  235011144   1% /mnt/d
+tmpfs              363540        20     363520   1% /run/user/0
+tmpfs              363540        20     363520   1% /run/user/1000
+
+7) Display the user name of the current user
+soniya@LAPTOP-99V7GI4G:~$ whoami
+soniya
+
+8) Display text – Todays Date is &lt;todays date&gt; on command line
+soniya@LAPTOP-99V7GI4G:~$ echo "Today's date is $(date)"
+Today's date is Fri Dec 26 17:59:33 UTC 2025
