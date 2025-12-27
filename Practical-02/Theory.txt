@@ -1,0 +1,57 @@
+### Experimentation with File system and file handling commands
+
+File Commands :-
+$ cat filename display the contents of file filename
+$ cat &gt; filename create a file with the name filename
+$ cat &gt;&gt; filename append into the file filename
+$ touch filename create an empty file
+$ more filename display screenful content of the file; press space bar to scroll and ctrl d to quit
+$ less filename same as more but also allows to move backward and forward; press Ctrl B for backward and space bar for forward
+$ cp file1 file2 copy file1 to file2, overwrite old file2 if it exists
+$ mv file1 file2 move/rename file1 to file2, overwrite oldfile2 if it exists, move file1 to file2 if file2 is a directory
+$ rm filenames remove filenames
+  options :
+  -i asks for confirmation before deleting the file
+$ ls list names of all files in current directory
+  options: 
+  -l list more information about each file
+  -a list all files, including hidden ones
+  -t list in time order, most recent first
+  -u list by time last used
+  -r list in reverse order
+$ ls filenames list only the named files
+$ wc filename count lines, words, and characters for each file
+  options : 
+  -l count lines
+  -w count words
+  -c count characters
+
+Directory Commands :- 
+$ pwd print current working directory 
+$ mkdir dirname creates a directory
+$ cd dirname go to the directory
+$ cd go to home directory
+$ cd .. moves up one level in file system
+$ rmdir dirname removes the empty directory
+$ rm –r dirname recursively deletes the entire contents of the directory as well as the directory itself
+
+Miscellaneous Commands :-
+$ grep pattern file display lines matching pattern
+  options : -v display lines not matching pattern
+  -i ignore case
+  -l display filenames instead of lines
+  -n prefix each line of output with line number
+  -x select only those matches that exactly match the whole line
+$ sort filname sort files alphabetically by line
+  options : 
+  -r reverse normal order
+  -n sort in numerical order
+  -f fold upper and lower case together
+$ tail filename display last 10 lines of file
+  options : 
+  -n display last n lines of file
+$ head filename display first 10 lines of file
+options : 
+-n display first n lines of file
+$ cmp file1 file2 display location of first difference
+$ diff file1 file2 display all differences between files
